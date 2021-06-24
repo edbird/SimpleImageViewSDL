@@ -21,3 +21,14 @@ Feel free to make suggestions and I can perhaps implement this differently if th
 # Requirements
 
 SDL2 and SDL2 Image library (see include directives in main.cpp)
+
+# Thread from elsewhere...
+I've written a non-pozzed image viewer, intended to be used with Windows, but it is cross platform as it uses SDL.
+
+If this is something you are interested in please check it out and let me know if you need help to compile it etc
+
+It uses SDL2, so should just work cross platform, provided you have a C++ 17 compliant compiler on Windows
+
+There is no menu or anything like that it's literally just a window which displays images. There are 4 keybindings. Q to quit, A to re-scale the window to the image, and LEFT/RIGHT to move between images in the current WD. I'm aware it needs some kind of GUI to be able to open images, but I've not got time to work on that at the moment
+
+You will need to run it from a working dir which contains images. I'm also aware that's retarded and it's not something I've got around to sorting yet
