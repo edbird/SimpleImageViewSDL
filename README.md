@@ -3,7 +3,9 @@ SDL Version of Simple Image View
 
 # Keybindings
 a = fix window to image size
+
 q = quit
+
 LEFT / RIGHT = select image from current working directory
 
 # Why this software?
