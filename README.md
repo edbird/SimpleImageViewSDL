@@ -17,3 +17,7 @@ In contrast, Simple Image View is just that - simple.
 SDL probably isn't an ideal framework to use to build this kind of application, but it happened to be something that I knew how to use, and it is cross platform. Since I am a Linux developer and avoid using Windows unless absolutly necessary, I don't really know what options are available for Windows other than cross platform solutions.
 
 Feel free to make suggestions and I can perhaps implement this differently if there is a better way.
+
+# Requirements
+
+SDL2 and SDL2 Image library (see include directives in main.cpp)
